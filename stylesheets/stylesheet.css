@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", cursive;
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+.btn:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fas:hover {
+  transform: scale(1.1);
+}
+.fab:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+  margin-top: auto;
+  color: white;
+}
+
+.mContainer {
+  margin-top: 10%;
+}
+
+.myContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+.myContainer .mySection {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  background-blend-mode: multiply;
+}
+
+.myContainer .mySection:nth-child(1) {
+  background: url(../assets/landing.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.myContainer .mySection:nth-child(2) {
+  background: url(../assets/portfolio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.myContainer .mySection:nth-child(3) {
+  background: url(../assets/trailTalk.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.myContainer .mySection:nth-child(4) {
+  background: url(../assets/contact.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 3px;
+}
+::-webkit-scrollbar-button {
+  background-color: #666;
+}
+::-webkit-scrollbar-track {
+  background-color: #646464;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #666;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #646464;
+}
+::-webkit-resizer {
+  background-color: #666;
+}
+
+/* body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
+/* .myContainer .mySection .myContent {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 700px;
+} */
+
+/* .myContainer .mySection .myContent h2 {
+  background: whitesmoke;
+  color: #111;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-top-left-radius: 10%;
+}
+.myContainer .mySection .myContent p {
+  background: whitesmoke;
+  color: #111;
+  font-weight: 300;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+} */
