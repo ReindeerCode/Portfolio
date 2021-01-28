@@ -24,7 +24,7 @@ body {
 }
 
 .intro-left {
-  background: url(../assets/programming.jpg) ;
+  background: url(../assets/programming.jpg);
   /* background-size: 100%; */
   background-repeat: round;
   position: fixed;
@@ -66,6 +66,10 @@ section {
 }
 
 h2 {
+  font-style: bold;
+}
+
+h4 {
   font-style: oblique;
 }
 
