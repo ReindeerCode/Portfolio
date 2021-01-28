@@ -68,7 +68,7 @@
         <div class="col-md-4 px-0 mx-0"></div>
         <div class="col-md-8 panel-right px-0 mx-0">
           <div class="col-md-6 float-right">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" title="Not a button, go get coffee"><i class="fas fa-2x fa-mug-hot"></i></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,22 +76,23 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-item nav-link active" href="#home"
-                    >Home <span class="sr-only">(current)</span></a
+                    <a class="nav-item nav-link active" title="click here" href="#home"
+                    >Top <span class="sr-only">(current)</span></a
                   >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link" title="click here" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-item nav-link" href="#trailTalk">Trail Talk</a>
+                    <a class="nav-item nav-link" title="click here" href="#youtube">Youtube</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-item nav-link" href="#contact">Contact Me</a>
+                    <a class="nav-item nav-link" title="click here" href="#contact">Contact Me</a>
                   </li>
                 </ul>
               </div>
             </nav>
+            <section id="home"></section>
             <section class="quote float-right">
               <blockquote class="blockquote">
                 <p class="mb-0">
@@ -106,7 +107,8 @@
             </section>
           </div>
 
-          <section class="intro float-left">
+          
+          <section  class="intro float-left">
             <h2>Responsive Portfolio Page</h2>
             <h4 class="mb-5">
               Built with Bootstrap, Font Awesome, Google Fonts, and jQuery.
@@ -119,9 +121,9 @@
               Database Theory, MongoDB, MySQL, and Node.js.
             </p>
           </section>
-
+          
           <section class="projects">
-            <h2 class="float-left mb-5">My Projects</h2>
+            <h2 id="projects" class="float-left mb-5">My Projects</h2>
             <div class="container-fluid">
               <div class="row float-right">
                 <div class="card-deck">
@@ -228,7 +230,7 @@
 
 
           <section class="youtube">
-            <h2 class="float-left mt-5 mb-5">My Youtube Channel</h2>
+            <h2 id="youtube"  class="float-left mt-5 mb-5">My Youtube Channel</h2>
             <div class="container-fluid float-right">
                   <div class="card mb-5 align-items-center">
                     <div class="ytVideo" ><iframe src="https://www.youtube.com/embed/QBa3_or7ieo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
@@ -253,7 +255,7 @@
           </section>
 
           <section class="contact">
-            <div class="row">
+            <div id="contact" class="row">
               <div class="col-12"><h2 class="float-left mt-5">Contact Me</h2></div>
               <div class="container-fluid">
                 <form >
@@ -331,8 +333,8 @@
 
           </section>
           
-          <footer class="footer">
-            <div class="container-fluid text-center ">
+          <footer class="footer navbar-light bg-light">
+            <div class="container-fluid text-center">
               <span class="text-muted">Thanks for stopping by!</span>
             </div>
           </footer>

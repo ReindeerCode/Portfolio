@@ -95,7 +95,6 @@ i.fab::before {
 }
 
 .footer {
-  background-color: #ffffff;
   font-size: 1rem;
   margin: 0;
   position: fixed;
@@ -106,7 +105,7 @@ i.fab::before {
   width: 77%;
 }
 
-nav{
+nav {
   margin-left: 33%;
   margin-right: 0;
   width: 77%;
@@ -149,7 +148,6 @@ nav{
     color: #000;
   }
   .footer {
-    background-color: #ffffff;
     font-size: 1rem;
     margin: 0;
     position: fixed;
