@@ -98,6 +98,18 @@ i.fab::before {
   background-color: #ffffff;
   font-size: 1rem;
   margin: 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  margin-left: 33%;
+  margin-right: 0;
+  width: 77%;
+}
+
+nav{
+  margin-left: 33%;
+  margin-right: 0;
+  width: 77%;
 }
 
 /** start scroll bar  */
@@ -135,5 +147,14 @@ i.fab::before {
     position: relative;
     width: 100%;
     color: #000;
+  }
+  .footer {
+    background-color: #ffffff;
+    font-size: 1rem;
+    margin: 0;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
   }
 }
