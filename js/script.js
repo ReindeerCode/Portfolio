@@ -49,16 +49,14 @@ $(document).ready(function () {
       </div>
     </div>
   </div>
-
   <a target="_blank" href="https://github.com/ReindeerCode?tab=repositories">
   <button
     type="button"
-    class="btn btn-link text-dark container mt-auto "
+    class="btn btn-link text-dark container"
     alt="GitHub icon not found"
     title="go to GitHub repositories"
   >
-    <i class="fab fa-3x fa-github"></i></button></a>
-  `;
+    <i class="fab fa-3x fa-github"></i></button></a>`;
 
     $("#seeMore").replaceWith(moreTemplate);
   });
