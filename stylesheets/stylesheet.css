@@ -141,8 +141,9 @@ nav {
 
 @media (max-width: 768px) {
   .intro-left {
-    height: 13vh;
+    height: 27vh;
     margin-bottom: 8rem;
+    margin-top: 4rem;
     position: relative;
     width: 100%;
     color: #000;
@@ -154,5 +155,10 @@ nav {
     left: 0px;
     bottom: 0px;
     width: 100%;
+  }
+  nav {
+    margin-left: unset !important;
+    margin-right: unset !important;
+    width: unset !important;
   }
 }
