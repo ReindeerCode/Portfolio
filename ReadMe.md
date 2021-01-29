@@ -19,7 +19,7 @@
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-Portfolio now includes icons, parallax background, programming languages, minimalist color scheme and layout.
+Portfolio now includes icons, programming languages, minimalist color scheme and layout.
 
 
 ## Installation Instructions: 
@@ -47,16 +47,16 @@ Following screen shot is of the Portfolio section
 
 ![Project Screenshot](./assets/port.png)
 
-Following screen shot is of Trail Talk section
+Following screen shot is of the Projects section
 
-![Project Screenshot](./assets/trail.png)
+![Project Screenshot](./assets/port2.png)
 
-The following screen shot is of the Contact section
+The following screen shot is of the YouTube section
 
-![Project Screenshot](./assets/contactScreenShot.png)
+![Project Screenshot](./assets/yt.png)
 
-The following screen shot is of the dark theme scroll bar
+The following screen shot is of the Contact Me section
 
-![Project Screenshot](./assets/darkThemeScroll.png)
+![Project Screenshot](./assets/contact.png)
 
 
