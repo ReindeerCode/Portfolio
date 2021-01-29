@@ -49,7 +49,7 @@ Following screen shot is of the Portfolio section
 
 Following screen shot is of the Projects section
 
-![Project Screenshot](./assets/port2.png)
+![Project Screenshot](./assets/projects.png)
 
 The following screen shot is of the YouTube section
 
