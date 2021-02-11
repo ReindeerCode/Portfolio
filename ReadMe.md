@@ -23,11 +23,11 @@ Portfolio now includes icons, programming languages, minimalist color scheme and
 
 
 ## Installation Instructions: 
-N/A
+Nothing to install, we're ready to go!
 
 
 ## Test Command: 
-To test type n/a into the terminal
+Click the deployed site link at the top of the read me
 
 ## Github: 
 Check out more projects on my Github at https://github.com/ReindeerCode
